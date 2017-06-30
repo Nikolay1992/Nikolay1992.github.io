@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background: #D9DADA;
+}
+
+p {
+	font-family: 'Pathway Gothic One', sans-serif;
+	position: relative;
+	top: 30px;
+}
+
+h1 {
+	position: relative;
+	float: left;
+	display: inline-block;
+	color: white;
+	font: italic 28px Arial, sans-serif;
+	margin-top: 40px;
+	margin-left: 65px;
+	z-index: 2;
+}
+
+h2 {
+	float: left;
+	color: white;
+	font-style: Arial, sans-serif;
+	font-size: 16px;
+	margin-top: 35px;
+	margin-left: 6px;
+}
+
+a h3 {
+	float: left;
+	padding-left: 10px;
+	font: normal 28px Courier New, sans-serif;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+}
+
+h4{
+	position: absolute;
+	color: white;
+	font: normal 40px Courier New, sans-serif;
+	font-weight: 100;
+	left: 45%;
+	top: 45%;
+}
+
+
+#wrapper {
+	height: 150px;
+	background: black;
+}
+
+#wrap {
+	position: relative;
+	height: 180px;
+	overflow: hidden;
+	top: -30px;
+	left: 5%;
+	float: left; 
+}
+
+.square {
+	width: 40px;
+    height: 40px;
+    background: #6b7e89;
+    float: left;
+}
+
+.smallSquare {
+	width: 20px;
+	height: 20px;
+	background: #58595b;
+}
+
+.trap {
+height: 0; width: 20px;
+border-bottom: 20px solid #8097ac;
+border-left: 0px solid transparent;
+border-right: 20px solid transparent;
+}
+
+li{
+	float: right;
+	margin-left: 8%;
+}
+
+li a{
+
+	color: white;
+	text-decoration:none;
+
+}
+
+
+ul{
+	padding-right:  5%;
+	padding-left: 0%;
+	margin-left: 0%;
+	padding-top: 50px;
+}
+
+
+ li  :hover .smallSquare {
+	background: white;
+	}
+
+
+
+#circle {
+	width: 220px;
+	height:  220px;
+	background: black;
+	border-radius: 50%;
+	border: red solid 5px;
+}
+
+.line1 {
+	position: relative;
+	background: blue;
+	width: 250px;
+	height: 4px;
+	top:25px;
+	left: -50px;
+	transform: skewY(30deg);
+	z-index: 1;
+}
+
+#podval{
+	position: absolute;
+	top: 1000px;
+	left:47%; 
+}
+
+table {
+	position: relative;
+	top:20px;
+}
+
+table td{
+	cursor: pointer;
+	border: 1px solid;
+	height: 152px;
+	width: 152px;
+	background: black;
+}
+
+#number{
+	position: relative;
+	left: 700px;
+	top:-30px;
+	font-size: 40px;
+}
+
+#die{
+	display: block;
+	position: relative;
+	font-size: 40px;
+	color: red;
+	left: 745px;
+	top:-77px;
+}
